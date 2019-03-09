@@ -4,7 +4,7 @@
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
   "Guardian:StrikeTwo": {
-    "NAME": "双斩",
+    "NAME": "双重打击",
     "DESCRIPTION": "造成 !D! 点伤害两次。"
   },
   "Guardian:Defend_Guardian": {
@@ -63,7 +63,7 @@
     "DESCRIPTION": "对随机敌人造成 !D! 点伤害 !M! 次。"
   },
   "Guardian:TwinSlam": {
-    "NAME": "双重撞击",
+    "NAME": "双斩",
     "DESCRIPTION": "造成 !D! 点伤害 !GuardianMulti! 次。"
   },
   "Guardian:GuardianWhirl": {
@@ -105,7 +105,7 @@
     "DESCRIPTION": "造成 !D! 点伤害，给予 !M! 层 灼烧 。"
   },
   "Guardian:Orbwalk": {
-    "NAME": "圆球运转",
+    "NAME": "天行圆球",
     "DESCRIPTION": "获得 !M! 力量。 NL 滴答 -获得 1 点力量。 NL  挥发 。",
 	"UPGRADE_DESCRIPTION": "获得 !M! 力量。 NL 滴答 -获得 1 点 力量 。"
   },
@@ -123,13 +123,13 @@
   },
   "Guardian:SentryBeam": {
     "NAME": "哨兵射线",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 在你的抽牌堆顶部加入一张 哨兵震荡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 在你的抽牌堆顶部加入一张已 升级的 哨兵震荡。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张 哨兵震荡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张已 升级 的 哨兵震荡 。 NL 消耗 。"
   },
   "Guardian:SentryWave": {
     "NAME": "哨兵震荡",
-    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 抽 1 张牌。 NL 在你的抽牌堆顶部加入一张 哨兵射线 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 。 NL 抽 1 张牌。 NL 在你的抽牌堆顶部加入一张已 升级的 哨兵射线。 NL 消耗 。"
+    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 抽 1 张牌。 NL 抽 1 张牌， 凝滞 一张 哨兵射线 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 。 NL 抽 1 张牌， 凝滞 一张 哨兵射线 。 NL 消耗 。"
   },
   "Guardian:CompilePackage": {
     "NAME": "完整组件",
@@ -141,8 +141,8 @@
   },
   "Guardian:PackageShapes": {
     "NAME": "组件: 变形",
-    "DESCRIPTION": "增加一张 时间炸弹 ， 荆棘协议 和 反冲 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 时间炸弹 ， 荆棘协议 和 反冲 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
+    "DESCRIPTION": "增加一张 时间炸弹 ， 荆棘协议 和 反冲协议 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 时间炸弹 ， 荆棘协议 和 反冲协议 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageDonuDeca": {
     "NAME": "组件: 先古",
@@ -161,8 +161,8 @@
   },
   "Guardian:PackageWalker": {
     "NAME": "组件: 天行",
-    "DESCRIPTION": "增加一张 圆球运转 , 冲刺爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 圆球运转 , 冲刺爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
+    "DESCRIPTION": "增加一张 圆球运转 , 天行爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 圆球运转 , 天行爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageAutomaton": {
     "NAME": "组件: 铜制",
@@ -175,7 +175,7 @@
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 重连 ，预编程  和 时间电容器 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:Planning": {
-    "NAME": "计划",
+    "NAME": "规划",
     "DESCRIPTION": "将抽牌堆顶部的 !M! 张牌 凝滞 。"
   },
   "Guardian:Recover": {
@@ -184,13 +184,13 @@
     "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 将弃牌堆的 !M! 张牌 凝滞 。"
   },
   "Guardian:Emergency": {
-    "NAME": "紧急恢复",
+    "NAME": "应激",
     "DESCRIPTION": " 加速 最右的 凝滞 到 0。 NL 消耗 。"
   },
   "Guardian:Clone": {
     "NAME": "克隆",
     "DESCRIPTION": "选择一张牌。 凝滞 这张牌的1张复制。 NL 消耗 。",
-    "EXTENDED_DESCRIPTION": ["~错误:~ #r凝滞 正在进程中。"]
+    "EXTENDED_DESCRIPTION": ["~错误:~  #r凝滞 线程已满。"]
   },
   "Guardian:Preprogram": {
     "NAME": "预编程",
@@ -214,12 +214,12 @@
     "UPGRADE_DESCRIPTION": " 固有 。 NL 你的回合结束时, 将手牌中的 !M! 张牌 凝滞 。"
   },
   "Guardian:Suspension": {
-    "NAME": "悬挂",
+    "NAME": "挂起",
     "DESCRIPTION": "选择手牌中的1张牌 凝滞 。",
     "UPGRADE_DESCRIPTION": "抽 1 张牌。 NL 选择手牌中的 1 张牌 凝滞 。"
   },
   "Guardian:FastForward": {
-    "NAME": "快速前冲",
+    "NAME": "快进",
     "DESCRIPTION": "将所有 凝滞 中的牌 加速 。",
     "UPGRADE_DESCRIPTION": "将所有 凝滞 中的牌 加速 两次。"
   },
@@ -241,7 +241,7 @@
   },
   "Guardian:GemFire": {
     "NAME": "宝石加农炮",
-    "DESCRIPTION": "消耗所有有 宝石 的牌。 每颗宝石对随机敌人造成 !D! 点伤害。"
+    "DESCRIPTION": "消耗手牌中有 宝石 的牌。 每颗宝石对随机敌人造成 !D! 点伤害。"
   },
   "Guardian:ChargeCore": {
     "NAME": "充能核心",
@@ -276,7 +276,7 @@
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL 如果有牌被 凝滞 ，再获得 !B! 点格挡。"
   },
   "Guardian:ExploitGems": {
-    "NAME": "开采宝石",
+    "NAME": "宝石开采",
     "DESCRIPTION": "抽 1 张牌。",
     "UPGRADE_DESCRIPTION": "获得 [E] 。 NL 抽 1 张牌。"
   },
@@ -298,7 +298,7 @@
     "DESCRIPTION": "造成 !D! 点伤害。 NL 本场战斗所有 射线 牌增加 !M! 点伤害。"
   },
   "Guardian:EvasiveProtocol": {
-    "NAME": "逃逸协议",
+    "NAME": "回避协议",
     "DESCRIPTION": "在 防御模式 时获得 2 点 敏捷 。 NL 获得 !M! 层防御防御模式。"
   },
   "Guardian:SpikerProtocol": {
@@ -306,7 +306,7 @@
     "DESCRIPTION": "在 防御模式 时获得 3 层 荆棘 。 NL 获得防御模式。"
   },
   "Guardian:ArmoredProtocol": {
-    "NAME": "武装协议",
+    "NAME": "装甲协议",
     "DESCRIPTION": "每回合在 防御模式 时获得 4 点 格挡 。 NL 获得 !M! 层防御模式。"
   },
   "Guardian:TimeSifter": {
@@ -360,7 +360,7 @@
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL 消耗 。"
   },
   "Guardian:Repulse": {
-    "NAME": "反冲",
+    "NAME": "反冲协议",
     "DESCRIPTION": "消耗每回合抽到的前 1 张状态或诅咒牌。",
     "UPGRADE_DESCRIPTION": "消耗每回合抽到的前 2 张状态或诅咒牌。"
   },
@@ -387,7 +387,7 @@
   },
   "Guardian:HammerDown": {
     "NAME": "坠落重锤",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 翻倍你的 力量 和 敏捷 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 翻倍你的 力量 和 敏捷 。 NL 消耗 。"
   },
   "Guardian:OmegaCannon": {
     "NAME": "终极加农炮",
@@ -399,8 +399,8 @@
     "UPGRADE_DESCRIPTION": " 保留 。 NL 交换你的 力量 与 敏捷 。 NL 抽 !M! 张牌。"
   },
   "Guardian:PackageConstruct": {
-    "NAME": "组件：建设",
-    "DESCRIPTION": "增加 1 张 实锤,，终极加农炮 和 模式切换 到你的手牌中。 他们的费用本场战斗降低 1  点。 NL 消耗 。",
+    "NAME": "组件：建造",
+    "DESCRIPTION": "增加 1 张 坠落重锤 ，终极加农炮 和 模式切换 到你的手牌中。 他们的费用本场战斗降低 1  点。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "增加 1 张已 升级 的 实锤,，终极加农炮 和 模式切换 到你的手牌中。 他们的费用本场战斗降低 1  点。 NL Exhaust."
   },
   "Guardian:PackageMass": {
@@ -410,15 +410,15 @@
   },
   "Guardian:MassOfThorns": {
     "NAME": "团状荆棘",
-    "DESCRIPTION": "获得 !M! 层 临时 荆棘 。"
+    "DESCRIPTION": "获得 !M! 层 临时 荆棘 。 NL 当你有 人工制品 时 消耗 。"
   },
   "Guardian:MassTimeBomb": {
     "NAME": "团状炸弹",
-    "DESCRIPTION": "向每个空的凝滞栏位加入一张 时间炸弹 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "向每个空的凝滞栏位加入一张已 升级 的 时间炸弹 。 NL 消耗 。"
+    "DESCRIPTION": "向每个空的凝滞栏位加入一张 时间炸弹 。 NL 生成大于等于 2 个时， 消耗 。",
+    "UPGRADE_DESCRIPTION": "向每个空的凝滞栏位加入一张已 升级 的 时间炸弹 。 NL 生成大于等于 2 个时， 消耗 。"
   },
   "Guardian:MassSlam": {
     "NAME": "合体撞击",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。NL 力量大于等于 3 时， 消耗 。"
   }
 }

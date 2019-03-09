@@ -21,9 +21,9 @@
   },
   "Guardian:FindGemsOption": {
     "TEXT": [
-      "Mine",
-      "Gain 2 random Gems.",
-      "Pick broken."
+      "挖掘",
+      "获得两颗随机宝石。",
+      "镐已损毁。"
     ]
   }
 }

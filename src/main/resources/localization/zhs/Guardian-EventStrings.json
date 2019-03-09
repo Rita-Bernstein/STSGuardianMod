@@ -6,16 +6,16 @@
       "在石墙里挖，你设法从它的休息点上摘下一块宝石。虽然有点疼，但没有牺牲就没有荣耀。",
       "虽然宝藏的前景很吸引人, 你选择为更重要的冒险而保存你的盔甲。",
       "成功挖到宝石之后, 你带着一些青铜附属物和满满的成就感离开了。",
-      "You snatch up the mining pick, which seems to be in poor condition. You could use it here to gain some gems, or stash it away to use later in your climb.",
-      "Using the mining pick, you hammer away at the wall and carve out a gem. The pick takes some wear and tear in the process, but better to damage it than your claws."
+      "你一把抓起了一个看起来状况很差的采矿镐。你可以用它在这里得到一些宝石，或者把它藏起来以便在以后的攀登中使用。",
+      "利用采矿镐，你敲开墙壁并挖出一颗宝石。在这个过程中，镐有一些磨损，但它总比你的爪要好。"
     ],
     "OPTIONS": [
       "[挖掘] #g获得 #g随机 #g宝石 #r失去 #r",
       " #r点生命 。",
       "[离开]",
-      "[Loot] #gGain #gMining #gPick.",
-      "[Mine] #gGain #grandom #gGem. #rLose #rPick #rcharge.",
-      "[Locked] Pick #rBroken."
+      "[抓起] #g获得Rhapsody公司采矿镐。",
+      "[挖掘] #g获得一颗随机宝石 。 #r失去 #r采矿镐耐久 。",
+      "[锁定] 采矿镐 #r已损毁 。"
     ]
   },
   "Guardian:StasisEgg": {
