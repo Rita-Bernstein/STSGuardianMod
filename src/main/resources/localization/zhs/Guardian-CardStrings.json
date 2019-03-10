@@ -303,7 +303,7 @@
   },
   "Guardian:SpikerProtocol": {
     "NAME": "荆棘协议",
-    "DESCRIPTION": "在 防御模式 时获得 3 层 荆棘 。 NL 获得防御模式。"
+    "DESCRIPTION": "在 防御模式 时获得 3 层 荆棘 。 NL 获得 !M! 层防御模式。"
   },
   "Guardian:ArmoredProtocol": {
     "NAME": "装甲协议",
