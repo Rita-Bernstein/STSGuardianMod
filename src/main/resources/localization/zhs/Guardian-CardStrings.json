@@ -170,7 +170,7 @@
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 超能射线 ， 铜制圆球 和 铜制装甲 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageDefect": {
-    "NAME": "组件: 缺陷",
+    "NAME": "组件: 故障",
     "DESCRIPTION": "增加一张 重连 ，预编程  和 时间电容器 到你的手牌。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 重连 ，预编程  和 时间电容器 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
