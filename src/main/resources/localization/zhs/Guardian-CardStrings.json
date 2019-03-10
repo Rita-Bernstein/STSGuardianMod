@@ -122,14 +122,14 @@
     "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。"
   },
   "Guardian:SentryBeam": {
-    "NAME": "哨兵射线",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张 哨兵震荡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张已 升级 的 哨兵震荡 。 NL 消耗 。"
+    "NAME": "哨卫射线",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张 哨卫震荡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张已 升级 的 哨卫震荡 。 NL 消耗 。"
   },
   "Guardian:SentryWave": {
-    "NAME": "哨兵震荡",
-    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 抽 1 张牌。 NL 抽 1 张牌， 凝滞 一张 哨兵射线 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 。 NL 抽 1 张牌， 凝滞 一张 哨兵射线 。 NL 消耗 。"
+    "NAME": "哨卫震荡",
+    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 抽 1 张牌。 NL 抽 1 张牌， 凝滞 一张 哨卫射线 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 。 NL 抽 1 张牌， 凝滞 一张 哨卫射线 。 NL 消耗 。"
   },
   "Guardian:CompilePackage": {
     "NAME": "完整组件",
@@ -155,7 +155,7 @@
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 球形护盾 ， 硬化 和 浮动圆球 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageSentry": {
-    "NAME": "组件: 哨兵",
+    "NAME": "组件: 哨卫",
     "DESCRIPTION": "增加一张 哨兵射线 和两张 哨兵震荡 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 哨兵射线 和两张 哨兵震荡 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
