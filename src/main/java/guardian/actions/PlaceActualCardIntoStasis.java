@@ -9,11 +9,19 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
 import guardian.GuardianMod;
+import guardian.cards.StasisField;
+import guardian.cards.StasisStrike;
 import guardian.orbs.StasisOrb;
 
 
 public class PlaceActualCardIntoStasis extends AbstractGameAction {
     private AbstractCard card;
+    private boolean hack;
+
+    public PlaceActualCardIntoStasis(AbstractCard card, boolean hack) {
+        this(card);
+        this.hack = hack;
+    }
 
     public PlaceActualCardIntoStasis(AbstractCard card) {
         this.card = card;
@@ -34,7 +42,8 @@ public class PlaceActualCardIntoStasis extends AbstractGameAction {
                     }
                 }
             }
-            AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(card)));
+
+            AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(card, this.hack)));
         }
 
         this.isDone = true;

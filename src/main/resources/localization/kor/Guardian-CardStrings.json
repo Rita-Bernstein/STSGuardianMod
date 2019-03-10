@@ -42,7 +42,8 @@
   },
   "Guardian:ChargeUp": {
     "NAME": "충전",
-    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 방어도 를 !B! 얻고 힘 을 !M! 얻습니다. NL 시한부."
+    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 방어도 를 !B! 얻고 힘 을 !M! 얻습니다. NL 시한부.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:DonusPower": {
     "NAME": "고대의 공격",
@@ -81,7 +82,8 @@
   },
   "Guardian:TimeBomb": {
     "NAME": "시간 폭탄",
-    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 이 카드의 정지장 효과가 만료됐을 때 이 카드를 소멸 시키고 모든 적에게 피해를 !M! 줍니다."
+    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 이 카드의 정지장 효과가 만료됐을 때 이 카드를 소멸 시키고 모든 적에게 피해를 !M! 줍니다.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:HyperBeam_Guardian": {
     "NAME": "파괴 광선",
@@ -176,7 +178,8 @@
   },
   "Guardian:Planning": {
     "NAME": "설계",
-    "DESCRIPTION": "뽑을 카드 더미 맨 윗쪽 카드 !M! 장을 정지장 에 넣습니다."
+    "DESCRIPTION": "뽑을 카드 더미 맨 윗쪽 카드 !M! 장을 정지장 에 넣습니다.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:Recover": {
     "NAME": "복구",
@@ -374,11 +377,13 @@
   },
   "Guardian:GatlingBeam": {
     "NAME": "개틀링 광선",
-    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 무작위 적에게 피해를 !D! 줍니다. 체크포인트 효과가 발동된 횟수만큼 반복합니다. NL 시한부."
+    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 무작위 적에게 피해를 !D! 줍니다. 체크포인트 효과가 발동된 횟수만큼 반복합니다. NL 시한부.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:ShieldCharger": {
     "NAME": "보호막 충전기",
-    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 방어도 를 !B! 얻고 [E] 를 얻습니다. NL 시한부."
+    "DESCRIPTION": "이 카드를 정지장 에 넣습니다. NL 체크포인트 - 방어도 를 !B! 얻고 [E] 를 얻습니다. NL 시한부.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:StasisEngine": {
     "NAME": "정지장 엔진",
@@ -415,7 +420,8 @@
   "Guardian:MassTimeBomb": {
     "NAME": "폭탄 덩어리",
     "DESCRIPTION": "빈 정지장 슬롯 마다 시간 폭탄 을 넣습니다. NL 소멸.",
-    "UPGRADE_DESCRIPTION": "빈 정지장 슬롯 마다 강화된 시간 폭탄 을 넣습니다. NL 소멸."
+    "UPGRADE_DESCRIPTION": "빈 정지장 슬롯 마다 강화된 시간 폭탄 을 넣습니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:MassSlam": {
     "NAME": "집단 강타",

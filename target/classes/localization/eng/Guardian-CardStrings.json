@@ -42,7 +42,8 @@
   },
   "Guardian:ChargeUp": {
     "NAME": "Charge Up",
-    "DESCRIPTION": "Place this card into Stasis. NL Tick - Gain !B! Block and !M! Strength. NL Volatile."
+    "DESCRIPTION": "Place this card into Stasis. NL Tick - Gain !B! Block and !M! Strength. NL Volatile.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:DonusPower": {
     "NAME": "Ancient Attack",
@@ -81,7 +82,8 @@
   },
   "Guardian:TimeBomb": {
     "NAME": "Time Bomb",
-    "DESCRIPTION": "Place this card into Stasis. NL When this card would leave Stasis, deal !M! damage to ALL enemies. NL Volatile."
+    "DESCRIPTION": "Place this card into Stasis. NL When this card would leave Stasis, deal !M! damage to ALL enemies. NL Volatile.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:HyperBeam_Guardian": {
     "NAME": "Hyper Beam",
@@ -123,13 +125,13 @@
   },
   "Guardian:SentryBeam": {
     "NAME": "Sentry Beam",
-    "DESCRIPTION": "Deal !D! Damage. NL Draw a card. NL Place a Sentry_Wave into Stasis. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Draw a card. NL Place an Upgraded Sentry_Wave into Stasis. NL Exhaust."
+    "DESCRIPTION": "Deal !D! Damage. NL Place a Sentry_Wave into Stasis. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. NL Place an Upgraded Sentry_Wave into Stasis. NL Exhaust."
   },
   "Guardian:SentryWave": {
     "NAME": "Sentry Wave",
-    "DESCRIPTION": "Apply !M! Weak. NL Draw a card. NL Place a Sentry_Beam on top of your draw pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Apply !M! Weak to ALL enemies. NL Draw a card. NL Place an Upgraded Sentry_Beam on top of your draw pile. NL Exhaust."
+    "DESCRIPTION": "Apply !M! Weak. NL Draw a card. NL Place a Sentry_Beam into Stasis. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Weak to ALL enemies. NL Draw a card. NL Place an Upgraded Sentry_Beam into Stasis. NL Exhaust."
   },
   "Guardian:CompilePackage": {
     "NAME": "Compile Package",
@@ -176,7 +178,8 @@
   },
   "Guardian:Planning": {
     "NAME": "Planning",
-    "DESCRIPTION": "Place the top !M! cards of your draw pile into Stasis."
+    "DESCRIPTION": "Place the top !M! cards of your draw pile into Stasis.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:Recover": {
     "NAME": "Recover",
@@ -374,16 +377,18 @@
   },
   "Guardian:GatlingBeam": {
     "NAME": "Gatling Beam",
-    "DESCRIPTION": "Place this card into Stasis. NL Tick - Deal !D! damage to a random enemy. Repeat for each time this Tick effect has triggered. NL Volatile."
+    "DESCRIPTION": "Place this card into Stasis. NL Tick - Deal !D! damage to a random enemy. Repeat for each time this Tick effect has triggered. NL Volatile.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:ShieldCharger": {
     "NAME": "Shield Charger",
-    "DESCRIPTION": "Place this card into Stasis. NL Tick - Gain !B! Block and [E]. NL Volatile."
+    "DESCRIPTION": "Place this card into Stasis. NL Tick - Gain !B! Block and [E]. NL Volatile.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:StasisEngine": {
     "NAME": "Stasis Engine",
-    "DESCRIPTION": "Gain [E] and draw a card whenever you play 3 0-cost cards in a single turn.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Gain [E] and draw a card whenever you play 3 0-cost cards in a single turn."
+    "DESCRIPTION": "For every 3rd 0-cost card you play, gain [E] and draw a card.",
+    "UPGRADE_DESCRIPTION": "Innate. NL For every 3rd 0-cost card you play, gain [E] and draw a card."
   },
   "Guardian:HammerDown": {
     "NAME": "Hammer Down",
@@ -415,7 +420,8 @@
   "Guardian:MassTimeBomb": {
     "NAME": "Mass Of Bombs",
     "DESCRIPTION": "In each empty Stasis slot, place a Time Bomb there. NL Exhaust if this created 2 or more Time Bombs.",
-    "UPGRADE_DESCRIPTION": "In each empty Stasis slot, place an Upgraded Time Bomb there. NL Exhaust if this created 2 or more Time Bombs."
+    "UPGRADE_DESCRIPTION": "In each empty Stasis slot, place an Upgraded Time Bomb there. NL Exhaust if this created 2 or more Time Bombs.",
+    "EXTENDED_DESCRIPTION": ["~ERROR:~ #rStasis in progress."]
   },
   "Guardian:MassSlam": {
     "NAME": "Group Slam",

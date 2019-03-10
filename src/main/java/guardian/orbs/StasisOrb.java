@@ -42,9 +42,10 @@ public class StasisOrb extends AbstractOrb {
     private AbstractGameEffect stasisStartEffect;
     private boolean initialized;
 
-    public StasisOrb(AbstractCard card) {
+
+    public StasisOrb(AbstractCard card, boolean costHack) {
         this.stasisCard = card;
-        this.stasisCard.tags.add(GuardianMod.STASISGLOW);
+
         this.stasisCard.beginGlowing();
         this.name = orbString.NAME + stasisCard.name;
 
@@ -56,6 +57,9 @@ public class StasisOrb extends AbstractOrb {
                 this.basePassiveAmount = this.passiveAmount = card.cost + 1;
             }
 
+            if (card.freeToPlayOnce && !costHack){
+                this.basePassiveAmount = this.passiveAmount = 1;
+            }
         if (this.basePassiveAmount < 1){
             this.basePassiveAmount = this.passiveAmount = 1;
         }
@@ -73,7 +77,7 @@ public class StasisOrb extends AbstractOrb {
                 card.upgrade();
             }
         }
-
+        this.stasisCard.tags.add(GuardianMod.STASISGLOW);
         this.updateDescription();
     }
 
@@ -258,7 +262,7 @@ public class StasisOrb extends AbstractOrb {
     }
 
     public AbstractOrb makeCopy() {
-        StasisOrb so = new StasisOrb(this.stasisCard);
+        StasisOrb so = new StasisOrb(this.stasisCard, false);
         so.passiveAmount = so.basePassiveAmount = this.passiveAmount;
         so.evokeAmount = so.baseEvokeAmount = this.evokeAmount;
         return so;

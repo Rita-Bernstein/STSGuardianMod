@@ -51,7 +51,7 @@ this.exhaust = true;
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
         boolean result;
-        if (AbstractDungeon.player.hasEmptyOrb()){
+        if (GuardianMod.canSpawnStasisOrb()){
             result = true;
         } else {
             this.cantUseMessage = EXTENDED_DESCRIPTION[0];

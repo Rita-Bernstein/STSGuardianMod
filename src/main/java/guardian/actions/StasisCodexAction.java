@@ -29,7 +29,7 @@ public class StasisCodexAction extends AbstractGameAction {
                     AbstractCard codexCard = AbstractDungeon.cardRewardScreen.codexCard.makeStatEquivalentCopy();
                     codexCard.current_x = -1000.0F * Settings.scale;
 
-                    AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(codexCard)));
+                    AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(codexCard, false)));
 
                     AbstractDungeon.cardRewardScreen.codexCard = null;
                 }

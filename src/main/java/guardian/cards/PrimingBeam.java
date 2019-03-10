@@ -37,7 +37,7 @@ public class PrimingBeam extends AbstractGuardianCard {
 
     private static final int COST = 1;
     private static final int DAMAGE = 8;
-    private static final int UPGRADE_DAMAGE = 1;
+    private static final int UPGRADE_DAMAGE = 3;
     private static final int BEAMBUFF = 1;
     private static final int UPGRADE_BEAMBUFF = 1;
     private static final int SOCKETS = 0;
@@ -85,7 +85,7 @@ public class PrimingBeam extends AbstractGuardianCard {
         if (!this.upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_DAMAGE);
-            upgradeMagicNumber(UPGRADE_BEAMBUFF);
+            //upgradeMagicNumber(UPGRADE_BEAMBUFF);
         }
 
 

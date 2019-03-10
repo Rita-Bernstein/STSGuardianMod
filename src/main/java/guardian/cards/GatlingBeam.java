@@ -22,6 +22,7 @@ public class GatlingBeam extends AbstractGuardianCard {
     public static final String NAME;
     public static String DESCRIPTION;
     public static String UPGRADED_DESCRIPTION;
+    public static final String[] EXTENDED_DESCRIPTION;
     public static final String IMG_PATH = "cards/gatlingBeam.png";
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.RARE;
@@ -89,6 +90,17 @@ public class GatlingBeam extends AbstractGuardianCard {
 
     }
 
+    @Override
+    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
+        boolean result;
+        if (GuardianMod.canSpawnStasisOrb()){
+            result = true;
+        } else {
+            this.cantUseMessage = EXTENDED_DESCRIPTION[0];
+            result = false;
+        }
+        return result;
+    }
 
     public void updateDescription(){
 
@@ -106,6 +118,7 @@ public class GatlingBeam extends AbstractGuardianCard {
         NAME = cardStrings.NAME;
         DESCRIPTION = cardStrings.DESCRIPTION;
         UPGRADED_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
+        EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
 
     }
 }

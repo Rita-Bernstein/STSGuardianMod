@@ -22,6 +22,7 @@ public class ChargeUp extends AbstractGuardianCard {
     public static final String NAME;
     public static final String DESCRIPTION;
     public static String UPGRADED_DESCRIPTION;
+    public static final String[] EXTENDED_DESCRIPTION;
     public static final String IMG_PATH = "cards/chargeup.png";
 
     private static final CardStrings cardStrings;
@@ -70,7 +71,10 @@ public class ChargeUp extends AbstractGuardianCard {
         if (!this.upgraded) {
             upgradeName();
             //upgradeBlock(UPGRADE_BLOCK);
-            upgradeBaseCost(1);
+            this.cost = 1;
+            this.costForTurn = 1;
+            this.upgradedCost = true;
+
         }
     }
 
@@ -86,11 +90,25 @@ public class ChargeUp extends AbstractGuardianCard {
         }
         this.initializeDescription();
     }
+
+    @Override
+    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
+        boolean result;
+        if (GuardianMod.canSpawnStasisOrb()){
+            result = true;
+        } else {
+            this.cantUseMessage = EXTENDED_DESCRIPTION[0];
+            result = false;
+        }
+        return result;
+    }
+
     static {
         cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
         NAME = cardStrings.NAME;
         DESCRIPTION = cardStrings.DESCRIPTION;
         UPGRADED_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
+        EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
     }
 }
 

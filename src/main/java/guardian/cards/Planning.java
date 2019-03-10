@@ -21,6 +21,7 @@ public class Planning extends AbstractGuardianCard {
     public static final String NAME;
     public static final String DESCRIPTION;
     public static String UPGRADED_DESCRIPTION;
+    public static final String[] EXTENDED_DESCRIPTION;
     public static final String IMG_PATH = "cards/planning.png";
 
     private static final CardStrings cardStrings;
@@ -30,7 +31,7 @@ public class Planning extends AbstractGuardianCard {
 
     //TUNING CONSTANTS
 
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final int CARDS = 2;
     private static final int UPGRADE_CARDS = 1;
     private static final int SOCKETS = 0;
@@ -61,9 +62,14 @@ public class Planning extends AbstractGuardianCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_CARDS);
+            if (this.socketCount < 4) {
+                this.socketCount++;
+                this.saveGemMisc();
+            }
+            this.updateDescription();
         }
     }
+
 
     public void updateDescription(){
 
@@ -82,6 +88,7 @@ public class Planning extends AbstractGuardianCard {
         NAME = cardStrings.NAME;
         DESCRIPTION = cardStrings.DESCRIPTION;
         UPGRADED_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
+        EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
     }
 }
 

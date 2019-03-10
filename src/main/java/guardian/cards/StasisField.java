@@ -36,6 +36,8 @@ public class StasisField extends AbstractGuardianCard {
 
     //END TUNING CONSTANTS
 
+    public boolean justUsed = false;
+
     public StasisField() {
         super(ID, NAME, GuardianMod.getResourcePath(IMG_PATH), COST, DESCRIPTION, TYPE, AbstractCardEnum.GUARDIAN, RARITY, TARGET);
 
@@ -50,7 +52,7 @@ this.isEthereal = true;
         super.use(p,m);
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, this.block));
 
-        AbstractDungeon.actionManager.addToBottom(new PlaceActualCardIntoStasis(this));
+        AbstractDungeon.actionManager.addToBottom(new PlaceActualCardIntoStasis(this, true));
         this.useGems(p, m);
 
     }

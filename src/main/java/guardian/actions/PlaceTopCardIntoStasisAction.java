@@ -46,7 +46,7 @@ public class PlaceTopCardIntoStasisAction extends AbstractGameAction {
                             }
                         }
                     }
-                    AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(AbstractDungeon.player.drawPile.getTopCard())));
+                    AbstractDungeon.actionManager.addToBottom(new ChannelAction(new StasisOrb(AbstractDungeon.player.drawPile.getTopCard(), false)));
                     AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1F));
                     if (this.numCards - 1 > 0)
                         AbstractDungeon.actionManager.addToBottom(new PlaceTopCardIntoStasisAction(this.numCards - 1));

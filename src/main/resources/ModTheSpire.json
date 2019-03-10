@@ -3,7 +3,7 @@
   "name": "Guardian Mod",
   "author_list": ["Michael Mayhem", "zwolfiez"],
   "description": "Adds a new playable enemy character: The Guardian. \n \n If you like the mod and want to support me, check out my multiplayer party game, Sumo, in Early Access on Steam! - https://store.steampowered.com/app/858960/Sumo/ \n \n Credit: @FreshBoneArt for Guardian fanart used in character select. kiooeht - The god.  Reina - relic preview code. \n Special Thanks: Kio, Reina, Blank the Evil, Evil Pickle, JohnnyDevo, Skyson, Chronometrics, kobting, moocowgoesmoo and the rest of the Discord community for all the help.  Shoutout to Rhapsody (YouTube) for all the modded content creation! \n Localization Credit: KOR - Dalamzi & Tokbum. ZHS - Rita-Bernstein. \n \n Endless Thanks to my Patreon Supporters - Rhapsody, Alvin Tsang",
-  "version": "0.4.8",
+  "version": "0.4.12",
   "sts_version": "01-03-2019",
   "mts_version": "3.6.3",
   "dependencies": ["basemod", "stslib"],

@@ -54,7 +54,7 @@ this.isEthereal = true;
         super.use(p,m);
         AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
 
-        AbstractDungeon.actionManager.addToBottom(new PlaceActualCardIntoStasis(this));
+        AbstractDungeon.actionManager.addToBottom(new PlaceActualCardIntoStasis(this, true));
         this.useGems(p, m);
 
     }

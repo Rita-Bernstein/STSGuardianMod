@@ -52,7 +52,7 @@
       "sentry_beam"
     ],
     "PROPER_NAME": "Sentry Beam",
-    "DESCRIPTION": "0-cost Exhausting Attack that deals 5 damage (+2 Upgraded), and places a Sentry Wave on top of your draw pile."
+    "DESCRIPTION": "0-cost Exhausting Attack that deals 5 damage (+2 Upgraded), and places a Sentry Wave into Stasis."
   },
   {
     "NAMES": [
@@ -60,7 +60,7 @@
       "sentry_wave"
     ],
     "PROPER_NAME": "Sentry Wave",
-    "DESCRIPTION": "0-cost Exhausting Skill that applies 1 Weak (to ALL if Upgraded), draws 1 card , and places a Sentry Beam on top of your draw pile."
+    "DESCRIPTION": "0-cost Exhausting Skill that applies 1 Weak (to ALL if Upgraded), draws 1 card, and places a Sentry Beam into Stasis."
   },
   {
     "NAMES": [
