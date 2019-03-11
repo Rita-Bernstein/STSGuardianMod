@@ -123,10 +123,11 @@
     "NAME": "硬化",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。"
   },
+
   "Guardian:SentryBeam": {
     "NAME": "哨卫射线",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张 哨卫震荡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 1 张牌， 凝滞 一张已 升级 的 哨卫震荡 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL  凝滞 一张 哨卫震荡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL  凝滞 一张已 升级 的 哨卫震荡 。 NL 消耗 。"
   },
   "Guardian:SentryWave": {
     "NAME": "哨卫震荡",
@@ -387,8 +388,8 @@
   },
   "Guardian:StasisEngine": {
     "NAME": "凝滞引擎",
-    "DESCRIPTION": "在一回合内打出 3 张0费卡时，获得 [E] 并抽 1 张卡。",
-    "UPGRADE_DESCRIPTION": "固有 ， NL 在一回合内打出 3 张0费卡时，获得 [E] 并抽 1 张卡。"
+    "DESCRIPTION": "每打出 3 张0费卡时，获得 [E] 并抽 1 张卡。",
+    "UPGRADE_DESCRIPTION": "固有 ， NL 每打出 3 张0费卡时，获得 [E] 并抽 1 张卡。"
   },
   "Guardian:HammerDown": {
     "NAME": "坠落重锤",
