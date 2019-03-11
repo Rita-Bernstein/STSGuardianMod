@@ -125,13 +125,13 @@
   },
   "Guardian:SentryBeam": {
     "NAME": "보초기 광선",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 보초기파동 카드를 1장 뽑을 카드 더미 맨 위에 놓습니다. NL 소멸.",
-    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 강화된 보초기파동 카드를 1장 뽑을 카드 더미 맨 위에 놓습니다. NL 소멸."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 보초기파동 카드를 1장 정지장 에 넣습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 강화된 보초기파동 카드를 1장 정지장 에 넣습니다. NL 소멸."
   },
   "Guardian:SentryWave": {
     "NAME": "보초기 파동",
-    "DESCRIPTION": "약화 를 !M! 부여합니다. NL 카드를 1장 뽑습니다. NL 보초기광선 카드를 1장 뽑을 카드 더미 맨 위에 놓습니다 NL 소멸.",
-    "UPGRADE_DESCRIPTION": "모든 적에게 약화 를 !M! 부여합니다. NL 카드를 1장 뽑습니다. NL 강화된 보초기광선 카드를 1장 뽑을 카드 더미 맨 위에 놓습니다 NL 소멸."
+    "DESCRIPTION": "약화 를 !M! 부여합니다. NL 카드를 1장 뽑습니다. NL 보초기광선 카드를 1장 정지장 에 넣습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "모든 적에게 약화 를 !M! 부여합니다. NL 카드를 1장 뽑습니다. NL 강화된 보초기광선 카드를 1장 정지장 에 넣습니다. NL 소멸."
   },
   "Guardian:CompilePackage": {
     "NAME": "꾸러미 해체",
@@ -143,8 +143,8 @@
   },
   "Guardian:PackageShapes": {
     "NAME": "꾸러미: 구체들",
-    "DESCRIPTION": "시간 폭탄, 고슴도치 프로토콜, 섬멸 프로토콜 을 손으로 가져옵니다. 이번 전투동안 비용이 1 감소합니다. NL 소멸.",
-    "UPGRADE_DESCRIPTION": "강화된 시간 폭탄, 고슴도치 프로토콜, 섬멸 프로토콜 을 손으로 가져옵니다. 이번 전투동안 비용이 1 감소합니다. NL 소멸."
+    "DESCRIPTION": "시간 폭탄, 고슴도치 프로토콜, 국지방어기 를 손으로 가져옵니다. 이번 전투동안 비용이 1 감소합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "강화된 시간 폭탄, 고슴도치 프로토콜, 국지방어기 를 손으로 가져옵니다. 이번 전투동안 비용이 1 감소합니다. NL 소멸."
   },
   "Guardian:PackageDonuDeca": {
     "NAME": "꾸러미: 고대의 존재",
@@ -392,7 +392,7 @@
   },
   "Guardian:HammerDown": {
     "NAME": "최대출력",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 2 배로 증가합니다."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 2 배로 증가합니다. NL 소멸."
   },
   "Guardian:ModeShift": {
     "NAME": "모드 전환",
@@ -415,16 +415,16 @@
   },
   "Guardian:MassOfThorns": {
     "NAME": "가시 덩어리",
-    "DESCRIPTION": "임시 가시 를 !M! 얻습니다."
+    "DESCRIPTION": "임시 가시 를 !M! 얻습니다. 인공물이 있다면 소멸 합니다."
   },
   "Guardian:MassTimeBomb": {
     "NAME": "폭탄 덩어리",
-    "DESCRIPTION": "빈 정지장 슬롯 마다 시간 폭탄 을 넣습니다. NL 소멸.",
-    "UPGRADE_DESCRIPTION": "빈 정지장 슬롯 마다 강화된 시간 폭탄 을 넣습니다. NL 소멸.",
+    "DESCRIPTION": "빈 정지장 슬롯 마다 시간 폭탄 을 넣습니다. NL 2장 이상의 시간 폭탄을 생성하면 소멸 합니다.",
+    "UPGRADE_DESCRIPTION": "빈 정지장 슬롯 마다 강화된 시간 폭탄 을 넣습니다. NL 2장 이상의 시간 폭탄을 생성하면 소멸 합니다.",
     "EXTENDED_DESCRIPTION": ["~에러:~ #r정지장 작업중."]
   },
   "Guardian:MassSlam": {
     "NAME": "집단 강타",
-    "DESCRIPTION": "피해를 !D! 씩 !M! 번 줍니다."
+    "DESCRIPTION": "피해를 !D! 씩 !M! 번 줍니다. NL 힘 이 3이상 있다면 소멸 합니다."
   }
 }

@@ -6,16 +6,16 @@
       "바위같은 벽을 파내자 당신은 이내 안쪽에 있는 보석을 발견할 수 있었습니다. 고통이 따르긴 하지만 희생 없이 영광을 얻을 순 없습니다.",
       "보물을 찾는 것도 상당히 매력적인 일이지만 당신은 더 중요한 것을 위해 당신의 방어구를 손상시키지 않는 쪽을 선택했습니다.",
       "이 오래된 광산을 성공적으로 채광한 뒤, 당신은 약간의 성취감과 함께 자리를 뜹니다. 하지만 당신의 청동 부속품이 약간 삐걱대는 것이 느껴집니다.",
-      "You snatch up the mining pick, which seems to be in poor condition. You could use it here to gain some gems, or stash it away to use later in your climb.",
-      "Using the mining pick, you hammer away at the wall and carve out a gem. The pick takes some wear and tear in the process, but better to damage it than your claws."
+      "당신은 상태가 별로 좋아보이지 않는 채굴용 곡괭이를 낚아챘습니다. 당신은 이 곡괭이를 보석을 얻는 데 사용하거나 등반 중 다른 곳에서 사용하기 위해 숨겨둘 수 있습니다.",
+      "채굴용 곡괭이를 사용했습니다. 당신은 벽을 두드려 보석을 파냈습니다. 채굴 중 곡괭이가 뜯겨나가기는 했지만 손톱을 다치는 것 보다는 낫죠."
     ],
     "OPTIONS": [
       "[채광] #g무작위 #g보석 #g하나를 #g얻습니다. #r체력을 #r",
       " #r잃습니다.",
       "[떠난다]",
-      "[Loot] #gGain #gMining #gPick.",
-      "[Mine] #gGain #grandom #gGem. #rLose #rPick #rcharge.",
-      "[Locked] Pick #rBroken."
+      "[노획] #g채굴용 #g곡괭이를 #g얻습니다.",
+      "[채광] #g무작위 #g보석 #g하나를 #g얻습니다. #r곡괭이의 #r내구도를 #r1 #r잃습니다.",
+      "[잠김] 곡괭이를 사용할 수 #r없습니다."
     ]
   },
   "Guardian:StasisEgg": {

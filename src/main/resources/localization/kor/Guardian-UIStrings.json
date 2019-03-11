@@ -21,9 +21,9 @@
   },
   "Guardian:FindGemsOption": {
     "TEXT": [
-      "Mine",
-      "Gain 2 random Gems.",
-      "Pick broken."
+      "채광",
+      "무작위 보석을 2개 얻습니다.",
+      "곡괭이가 파괴되었습니다."
     ]
   }
 }
