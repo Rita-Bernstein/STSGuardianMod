@@ -107,12 +107,12 @@
     "DESCRIPTION": "造成 !D! 点伤害，给予 !M! 层 灼烧 。"
   },
   "Guardian:Orbwalk": {
-    "NAME": "天行圆球",
+    "NAME": "行者圆球",
     "DESCRIPTION": "获得 !M! 力量。 NL 滴答 -获得 1 点力量。 NL  挥发 。",
 	"UPGRADE_DESCRIPTION": "获得 !M! 力量。 NL 滴答 -获得 1 点 力量 。"
   },
   "Guardian:WalkerClaw": {
-    "NAME": "天行爪击",
+    "NAME": "行者爪击",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 力量 在本牌中发挥 !M! 倍效果。"
   },
   "Guardian:SphericShield": {
@@ -163,9 +163,9 @@
     "UPGRADE_DESCRIPTION": "增加一张已 升级 的 哨兵射线 和两张 哨兵震荡 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageWalker": {
-    "NAME": "组件: 天行",
-    "DESCRIPTION": "增加一张 圆球运转 , 天行爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 圆球运转 , 天行爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
+    "NAME": "组件: 行者",
+    "DESCRIPTION": "增加一张 圆球运转 , 行者爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "增加一张已 升级 的 圆球运转 , 行者爪击 和 焚烧 到你的手牌。他们的费用本场战斗降低 1  点。 NL 消耗 。"
   },
   "Guardian:PackageAutomaton": {
     "NAME": "组件: 铜制",
@@ -378,7 +378,7 @@
   },
   "Guardian:GatlingBeam": {
     "NAME": "加特林射线",
-    "DESCRIPTION": "将这张牌 凝滞 。 NL  滴答 -对随机敌人造成 !D! 点伤害 !M! 次。 NL 每次 滴答 触发时重复。 NL 挥发 。",
+    "DESCRIPTION": "将这张牌 凝滞 。 NL  滴答 -对随机敌人造成 !D! 点伤害 !M! 次。 NL 每次 滴答次数加 1 。 NL 挥发 。",
     "EXTENDED_DESCRIPTION": ["~错误:~ #r凝滞 正在进程中。"]
   },
   "Guardian:ShieldCharger": {
